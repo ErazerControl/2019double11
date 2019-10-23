@@ -12,9 +12,22 @@ if (lingmiaobi) {
 else {
     toast("未检查到领喵币按钮")
 }
+
+function checkTask() {
+    for (i = 0; i < 3; ++i) {
+        var target =  text("去进店").findOnce() || text("去浏览").findOnce();
+        if(target != null){
+            return target;
+        }
+        toast("下滑查找任务");
+        scrollDown(0);
+        sleep(2500);
+    }
+}
+
 function execTask() {
     while(true) {
-        var target =  text("去进店").findOnce() || text("去浏览").findOnce();
+        var target =  checkTask();
         if (target == null) {
             toast("任务完成");
             break;
