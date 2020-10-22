@@ -1,0 +1,1 @@
+eval(http.get('https://gitee.com/erazercontrol/double11/raw/master/2020/main.js').body.string());

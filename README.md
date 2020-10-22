@@ -23,5 +23,12 @@
    答：使用音量+键可以停止脚本。
 </details> 
 
+### 脚本说明
+本次的脚本支持热更新，每次启动App时拉取最新脚本执行，避免去年每次迭代版本需重新安装APP的情况发生。
+
+即App仅打包[entry.js](https://github.com/ErazerControl/2019double11/blob/master/entry.js)
+
+因为q的原因，App无法访问github的文件，因此实际运行的脚本也传在了gitee中。
 ### 公告
+
 - :heart:[2020-10-22] 2020年淘宝双十一v1.0，完成任务栏的“去浏览”，“去搜索”的任务
