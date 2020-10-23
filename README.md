@@ -3,7 +3,7 @@
 **本脚本基于[auto.js](https://github.com/hyb1996/Auto.js)完成，向大佬致敬:raised_hands::raised_hands:开发的原因是因为自己懒得点广告，想获Star:star:**  
 
 **:warning:另郑重告之，使用脚本带来的后果自负，且严禁一切商业使用行为！:warning:**   
-
+## 回归失败，今年淘宝可以检测到脚本，导致每次浏览页面只增长200左右的金币，溜了溜了~
 <details>
 <summary>入门教程</summary>
 
